@@ -1,0 +1,14 @@
+# Framework de Testing
+selenium==4.15.2
+pytest==7.4.3
+pytest-html==4.1.1
+
+# Gestión de WebDriver
+webdriver-manager==4.0.1
+
+# Variables de entorno
+python-dotenv==1.0.0
+
+# Generación de datos
+faker==20.1.0
+
