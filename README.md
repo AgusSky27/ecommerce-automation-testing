@@ -1,13 +1,6 @@
 # 🛍️ E-Commerce Test Automation Framework
 
-# 🛍️ E-Commerce Test Automation Framework
-
 [![Tests](https://github.com/AgusSky27/ecommerce-automation-testing/actions/workflows/tests.yml/badge.svg)](https://github.com/AgusSky27/ecommerce-automation-testing/actions)
-[![Selenium](https://img.shields.io/badge/Selenium-4.15-green)](https://www.selenium.dev/)
-[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
-[![Pytest](https://img.shields.io/badge/Pytest-7.4-yellow)](https://pytest.org/)
-> Automatización QA con Selenium, Python y Pytest usando Page Object Model
-
 [![Selenium](https://img.shields.io/badge/Selenium-4.15-green)](https://www.selenium.dev/)
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 [![Pytest](https://img.shields.io/badge/Pytest-7.4-yellow)](https://pytest.org/)
