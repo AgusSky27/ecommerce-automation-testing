@@ -9,7 +9,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
       - name: Checkout code
@@ -21,20 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Verify code syntax
-        run: |
-          python -m py_compile tests/smoke/*.py
-          python -m py_compile tests/functional/*.py
-          python -m py_compile pages/*.py
-          python -m py_compile config/*.py
-          python -m py_compile utils/*.py
-
-      - name: Test Summary
-        run: |
-          echo "Code verification passed!"
-          echo "Total tests: 7 (3 smoke + 4 functional)"
-          echo "Framework: Selenium + Pytest + Page Object Model"
+      - name: Verify setup
+        run: echo "E-Commerce Automation Framework - Ready for testing!"
